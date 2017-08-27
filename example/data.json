@@ -1,0 +1,56 @@
+[{
+  "name": "全国",
+  "dataId": 100000,
+  "parentId": null,
+  "isLeaf": true
+}, {
+  "name": "北京",
+  "dataId": 110000,
+  "parentId": null,
+  "isLeaf": true
+}, {
+  "name": "天津",
+  "dataId": 120000,
+  "parentId": null,
+  "isLeaf": true
+}, {
+  "name": "河北省",
+  "dataId": 130000,
+  "parentId": null,
+  "isLeaf": false
+}, {
+  "name": "石家庄市",
+  "dataId": 130100,
+  "parentId": 130000,
+  "isLeaf": false
+}, {
+  "name": "长安区",
+  "dataId": 130102,
+  "parentId": 130100,
+  "isLeaf": true
+}, {
+  "name": "桥西区",
+  "dataId": 130104,
+  "parentId": 130100,
+  "isLeaf": true
+}, {
+  "name": "唐山市",
+  "dataId": 130200,
+  "parentId": 130000,
+  "isLeaf": true
+}, {
+  "name": "山西省",
+  "dataId": 140000,
+  "parentId": null,
+  "isLeaf": false
+}, {
+  "name": "太原市",
+  "dataId": 140100,
+  "parentId": 140000,
+  "isLeaf": true
+}, {
+  "name": "大同市",
+  "dataId": 140200,
+  "parentId": 140000,
+  "isLeaf": true
+}]
