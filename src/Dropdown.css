@@ -1,0 +1,67 @@
+.Multi-Dropdown-container {
+  display: block;
+  position: relative;
+  border: 1px solid #dedddd;
+  border-radius: 2px;
+}
+.Multi-Dropdown-holder {
+  display: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  cursor: pointer;
+}
+.Multi-Dropdown-holder > div:first-child {
+  padding: 7px 40px 7px 15px;
+  line-height: 20px;
+  font-size: 16px;
+}
+.Multi-Dropdown-placeholder {
+  color: #dedddd;
+}
+.Multi-Dropdown-icon-down {
+  position: absolute;
+  right: 0;
+  top: 7px;
+  bottom: 7px;
+  color: #dedddd;
+}
+.Multi-Dropdown-menu-container {
+  position: absolute;
+  left: 0;
+  margin-top: 0px;
+  margin-left: -1px;
+}
+.Multi-Dropdown-menu-container ul {
+  position: absolute;
+  top: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: #fff;
+  border: 1px solid #dedddd;
+  
+  height: 260px;
+  max-height: 260px; 
+}
+/* .Multi-Dropdown-menu-container ul:first-child {
+  border-top: 0 none;
+} */
+.Multi-Dropdown-menu-container ul:not(:first-child) {
+  margin-left: -1px;
+}
+.Multi-Dropdown-menu-container ul:nth-child(2){
+  margin-left: 0;
+}
+.Multi-Dropdown-menu-container li {
+  padding: 4px 0 4px 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+.Multi-Dropdown-menu-container li:hover {
+  background-color: #dedddd;
+}
